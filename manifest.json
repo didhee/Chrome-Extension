@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Leads Tracker",
+    "action": {
+        "default_pop": "index.html",
+        "default_icon": "icons8-dollar.png"
+    }
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+
+/*-----------------------------*\
+        #VARIABLES#
+\*-----------------------------*/
+
+:root {
+    --c-green-color: #5f9341;
+}
+
+
+
+
+/*------------------------------*\
+        #COMPONENTS#
+\*------------------------------*/
+
+button {
+    /* display: block; */
+    margin-top: 10px;
+    background-color: var(--c-green-color);
+    border: 1px solid var(--c-green-color);
+    padding: 10px 12px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#input-el {
+    width: 100%;
+    border: 1px solid var(--c-green-color);
+    /* height: 26px; */
+    caret-color: #84b9b9;
+    padding: 10px;
+}
+
+#input-el:hover, #input-el:focus {
+    background-color: #cadeeb;
+}
+
+#input-el:focus {
+    border: none;
+    outline: 1px solid var(--c-green-color);
+}
+
+#del-btn {
+    background-color: #ffffff;
+    color: var(--c-green-color);
+}
+
+
+
+
+
+/*----------------------------------*\
+        #TYPOGRAPHY#
+\*----------------------------------*/
+
+button {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    margin-top: 7px;
+}
+
+ul li a {
+    color: var(--c-green-color);
+}
